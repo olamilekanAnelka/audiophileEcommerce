@@ -1,0 +1,531 @@
+body{
+    padding: 0;
+   margin: 0;
+   overflow-x: 0;
+   box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 767px){
+  .shoppingWrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .shoppingWrapper .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+  }
+
+
+
+  .xx99container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+   
+  }
+
+  .xx99container1 button{
+    border: none;
+    background-color: #ffffff;
+  }
+  .xx99containercol1 {
+    width: 100%;
+    height: 50vh;
+    background-color: #f1f1ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .xx99containercol1 img{
+    height: 50vh;
+ 
+  }
+
+  .xx99containercol2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+
+
+  }
+  .xx99containercol2 span{
+    color: #d57549;
+
+  }
+  .xx99containercol2 p{
+    width: 80%;
+    color: #aeaeae;
+  }
+  .xx99containercol2 h5{
+    font-weight: bold;
+  }
+
+  .xx99containercol2 .btn{
+    display: flex;
+  
+
+  }
+  .xx99containercol2 .arrow-button{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: #f1f1ef;
+    
+    
+  }
+
+  .xx99containercol2 .arrow-button span{
+   color: #000000;
+  }
+
+  .xx99containercol2 button{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    margin: 10px;
+    background-color: #d57548;
+    color: #ffffff;
+
+  }
+
+  .Features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Features .col1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+  
+  }
+  .Features .col1 p{
+    width: 90%;
+  }
+
+  .Features .col2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+  }
+
+  .Features .col2 th{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+
+  .Features .col2 span{
+    color: #d57549;
+    padding-right: 1rem;
+  }
+
+
+  .imgcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .imgcol .col1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgcol .firstimg{
+    width: 80%;
+    height: 50vh;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/customer_n2xw6g.png);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.imgcol .secondimg{
+    width: 80%;
+    height: 50vh;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earbudblack_yhd3jv.png);
+    background-size: cover;
+    margin-top: 10px;
+}
+.imgcol .col2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.imgcol .thirdimg{
+    width: 80%;
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earphone_kvsxmd.png);
+    background-size: cover;
+
+
+}
+
+.AlsoLike{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AlsoLike .card{
+    width: 50vw;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+}
+
+.AlsoLike .whitebg{
+    width: 100%;
+    height: 250px;
+    background-color: #f1f1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AlsoLike .card h3{
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px;
+}
+
+.AlsoLike .card button{
+    border: none;
+    background-color: #d57548;
+    color: #ffffff;
+    width: 8rem;
+    height: 3rem;
+    margin: 10px;
+}
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    .shoppingWrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .shoppingWrapper .navbar{
+        width: 100%;
+        background-color: #000000;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar .navbarcontent{
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    
+      }
+      .navbar .navbarcontent ul{
+        list-style: none;
+        display: flex;
+        
+      }
+      .navbar .navbarcontent li{
+        padding: 0px 10px;
+      }
+      .xx99container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 3rem;
+        width: 80%;
+       
+      }
+      .xx99container .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .xx99container1 button{
+        border: none;
+        background-color: #ffffff;
+      }
+      .xx99containercol1 {
+        width: 50%;
+        height: 70vh;
+        background-color: #f1f1ef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+     
+    
+      .xx99containercol1 img{
+        height: 50vh;
+     
+      }
+    
+      .xx99containercol2{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    
+    
+      }
+      .xx99containercol2 span{
+        color: #d57549;
+    
+      }
+      .xx99containercol2 p{
+        width: 80%;
+        color: #aeaeae;
+      }
+      .xx99containercol2 h5{
+        font-weight: bold;
+      }
+    
+      .xx99containercol2 .btn{
+        display: flex;
+      
+    
+      }
+      .xx99containercol2 .arrow-button{
+        width: 10rem;
+        height: 3rem;
+        border: none;
+       display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+        background-color: #f1f1ef;
+        
+        
+      }
+    
+      .xx99containercol2 .arrow-button span{
+       color: #000000;
+      }
+    
+      .xx99containercol2 button{
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        margin-right: 10px;
+        background-color: #d57548;
+        color: #ffffff;
+    
+      }
+
+      
+  .Features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 5rem;
+  }
+
+  .Features .col1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .Features .col1 p{
+    width: 90%;
+  }
+
+  .Features .col2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Features .col2 th{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+
+  .Features .col2 span{
+    color: #d57549;
+    padding-right: 1rem;
+  }
+
+  
+  .imgcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 5rem;
+
+  }
+  .imgcol .col1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgcol .firstimg{
+    width: 100%;
+    height: 40vh;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/customer_n2xw6g.png);
+    background-size: cover;
+    margin-bottom: 1vh;
+}
+
+.imgcol .secondimg{
+    width: 100%;
+    height: 40vh;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earbudblack_yhd3jv.png);
+    background-size: cover;
+    margin-top: 1vh;
+}
+.imgcol .col2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgcol .thirdimg{
+    width: 100%;
+    height: 82vh;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earphone_kvsxmd.png);
+    background-size: cover;
+
+
+}
+
+.AlsoLike{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.AlsoLike .cardcontainer{
+    display: flex;
+    
+    width: 100%;
+}
+
+.AlsoLike .card{
+    width: 35vw;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+}
+
+.AlsoLike .whitebg{
+    width: 100%;
+    height: 250px;
+    background-color: #f1f1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AlsoLike .card h3{
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px;
+}
+
+.AlsoLike .card button{
+    border: none;
+    background-color: #d57548;
+    color: #ffffff;
+    width: 8rem;
+    height: 3rem;
+    margin: 10px;
+}
+
+
+    
+    
+}
+

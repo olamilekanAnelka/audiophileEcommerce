@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 767px){
+    .signinwrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f1f1f1;
+     
+    }
+    .signinwrapper .wrapper{
+        background-color: black;
+        width: 100%;
+    }
+    
+    .signinwrapper .Gobackbtn{
+        margin-top: 3rem;
+    }
+    .signinwrapper .Gobackbtn button{
+        border: none;
+        background-color: #F1f1f1;
+
+    }
+
+    .signinwrapper .form{
+        width: 90%;
+        height: 50vh;
+        background-color: #ffffff;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3rem;
+    }
+
+    .signinwrapper .form h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .signinwrapper .form label{
+
+    }
+
+    .signinwrapper .form input{
+     width: 90%;
+     height: 2rem;
+     margin-bottom: 1rem;
+    }
+
+    .signinwrapper .form button{
+        background-color: #d87c49;
+        color: #ffffff;
+        font-weight: bold;
+        width: 90%;
+        border: none;
+        height: 2rem;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+      .signinwrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f1f1f1;
+      
+    }
+     .signinwrapper .wrapper{
+        background-color: black;
+    } 
+
+    .signinwrapper .Gobackbtn{
+        margin-top: 3rem;
+    }
+    .signinwrapper .Gobackbtn button{
+        border: none;
+        background-color: #F1f1f1;
+
+    }
+    
+    .signinwrapper .form{
+        width: 50%;
+        height: 50vh;
+        background-color: #ffffff;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3rem;
+    }
+
+    .signinwrapper .form h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .signinwrapper .form label{
+
+    }
+
+    .signinwrapper .form input{
+     width: 90%;
+     height: 2rem;
+     margin-bottom: 1rem;
+    }
+
+    .signinwrapper .form button{
+        background-color: #d87c49;
+        color: #ffffff;
+        font-weight: bold;
+        width: 90%;
+        border: none;
+        height: 2rem;
+    }
+
+
+}

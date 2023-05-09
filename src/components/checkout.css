@@ -1,0 +1,423 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing:  border-box;
+}
+
+@media only screen and (max-width: 767px){
+
+   .CheckoutWrapper{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     background-color: #f1f1ef;
+   }
+
+   .CheckoutWrapper .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+  }
+
+  
+ 
+  
+  .CheckoutWrapper .Gobackbtn{
+    width: 80%;
+   
+
+  }
+  .Gobackbtn button{
+    border: none;
+    background-color: #f1f1ef;
+    padding: 20px 0px;
+  }
+  .CheckoutWrapper .checkoutparent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .CheckoutWrapper .checkoutForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #ffffff;
+    padding-left: 3rem;
+    padding-top: 3rem;
+  }
+
+  .checkoutForm .form h1{
+   font-weight: 700;
+   font-size: 1.5rem;
+   padding: 20px 0px;
+  }
+  .checkoutForm .form span{
+    color: #d57d47;
+  }
+  .checkoutForm .form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .checkoutForm .form label{
+    font-weight: bold;
+  }
+  .checkoutForm form input{
+    width: 16rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #e8e8e7;
+    margin-bottom: 20px;
+  }
+
+  .checkoutForm .paydetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .checkoutForm .form p{
+    font-weight: bold;
+  }
+  .checkoutForm .form button{
+    width: 15rem;
+    height: 3rem;
+    margin: 10px 0px;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #e8e8e7;
+  }
+  .checkoutForm .radiobtn input{
+    margin:  10px;
+  }
+
+  .checkoutForm .emoney input{
+    width: 16rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #e8e8e7;
+    margin-bottom: 20px;
+  }
+
+  .checkoutparent .summary{
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .checkoutparent .summary h1{
+    padding: 20px;
+  }
+  .summary .box{
+    width: 100px;
+    height: 100px;
+    background-color: #e8e8e7;
+    margin-right: 2rem;
+  }
+  .summary .tbwrapper{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+  }
+  .tbwrapper > div {
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 10px;
+  }
+
+
+  .summary .boxparent td{
+    display: flex;
+   
+  }
+  .summary .boxparent span{
+    font-weight: bold;
+  }
+  .summary .total{
+   
+  }
+  .total .subtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+
+  }
+  .total .subtotal h6{
+    font-weight: bold;
+  }
+  .total .grandtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+  }
+
+  .total .grandtotal h6{
+    color: #d57d47;
+    font-weight: bold;
+  }
+
+  .total button{
+    width: 80%;
+    height: 3rem;
+    background-color: #d57d47;
+    color: #ffffff;
+    border: none;
+    margin: 20px 30px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .CheckoutWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1ef;
+      }
+
+      .CheckoutWrapper .wrapper{
+        background-color: #191919;
+      }
+      
+   
+     .CheckoutWrapper .Gobackbtn{
+       width: 80%;
+      
+   
+     }
+     .Gobackbtn button{
+       border: none;
+       background-color: #f1f1ef;
+       padding: 20px 0px;
+}
+
+.CheckoutWrapper .checkoutparent{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 10rem;
+   
+  }
+  .CheckoutWrapper .checkoutForm{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #ffffff;
+    padding-left: 3rem;
+    padding-top: 3rem;
+  }
+  .checkoutForm .form{
+    width: 80%;
+  }
+
+  .checkoutForm .form h1{
+   font-weight: 700;
+   font-size: 1.5rem;
+   padding: 20px 0px;
+  }
+  .checkoutForm .form span{
+    color: #d57d47;
+  }
+  .checkoutForm .form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .checkoutForm .form label{
+    font-weight: bold;
+  }
+  .checkoutForm form input{
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #e8e8e7;
+    margin-bottom: 40px;
+   
+  }
+  .checkoutForm form #addbtn{
+    width: 40rem;
+    padding-right: 20px;
+  }
+
+  .checkoutForm .paydetails{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .checkoutForm .form p{
+    font-weight: bold;
+  }
+  .checkoutForm .form button{
+    width: 15rem;
+    height: 3rem;
+    margin: 10px 0px;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #e8e8e7;
+  }
+  .checkoutForm .radiobtn input{
+    margin:  10px;
+  }
+  .checkoutForm .emoney{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .checkoutForm .emoney input{
+    width: 16rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #e8e8e7;
+    margin-bottom: 30px;
+  }
+
+
+  .checkoutparent .summary{
+    width: 35%;
+    height: 90vh;
+    background-color: #ffffff;
+  }
+  .checkoutparent .summary h1{
+    padding: 20px;
+  }
+  .summary .box{
+    width: 100px;
+    height: 100px;
+    background-color: #e8e8e7;
+    margin-right: 2rem;
+  }
+  .summary .tbwrapper{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+  }
+  .tbwrapper > div {
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 10px;
+  }
+  .checkoutparent .summary h1{
+    padding: 20px;
+  }
+  .summary .box{
+    width: 100px;
+    height: 100px;
+    background-color: #e8e8e7;
+    margin-right: 2rem;
+  }
+  .summary .tbwrapper{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+  }
+  .tbwrapper > div {
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 10px;
+  }
+
+
+  .summary .boxparent td{
+    display: flex;
+   
+  }
+  .summary .boxparent span{
+    font-weight: bold;
+  }
+  .summary .total{
+   
+  }
+  .total .subtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+
+  }
+  .total .subtotal h6{
+    font-weight: bold;
+  }
+  .total .grandtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+  }
+
+  .total .grandtotal h6{
+    color: #d57d47;
+    font-weight: bold;
+  }
+
+  .total button{
+    width: 80%;
+    height: 3rem;
+    background-color: #d57d47;
+    color: #ffffff;
+    border: none;
+    margin: 20px 30px;
+  }
+
+
+
+
+}

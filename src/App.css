@@ -1,0 +1,716 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px){
+  .TopWrapper{
+    width: 100%;
+    height: auto;
+    background-color: #191919;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .TopWrapper .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav{
+    background-color: #191919;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+  }
+  nav .navbar-brand{
+    color: #ffffff;
+  }
+  .navbar-toggler{
+  
+    border: none;
+    outline: none;
+   
+  }
+  .navbar-toggler-icon{
+    border: none ;
+    background-image: #fff;
+    outline: none;
+    box-shadow: none;
+ 
+
+  }
+
+  .navbar-toggler-icon span{
+    display: block;
+    color: blue;
+  }
+  /*
+  .toggle-button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .toggle-icon {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px auto;
+    border-radius: 3px;
+  }*/
+
+  .NewProdoct{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    width: 100%;
+    
+  }
+
+  .NewProdoct .col1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-left: 5rem;
+   background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earphone_kvsxmd.png);
+   background-size: cover;
+  }
+
+  .NewProdoct .col1 p{
+    text-align: center;
+  }
+  .NewProdoct .col1 button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #d57549;
+    color: #ffffff;
+    font-weight:400;
+  }
+
+
+ 
+  .shop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .shop .box{
+    width: 80%;
+    height: 200px;
+    background-color: #f1f1ef;
+     margin: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .shop .box img{
+    margin-top: -4rem;
+   
+  }
+  .shop .box h5{
+    margin-top: 2rem;
+    font-weight: 700;
+  }
+
+  .shop .box p{
+    color: #b1b1af;
+  }
+
+  .shop .box span{
+    color: #d57549;
+  }
+
+  .SpeakersWrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20rem;
+  }
+
+  .zx9box{
+    width: 80%;
+    height: auto;
+    background-color: #d57549;
+    margin-bottom: 3rem;
+   
+    
+  }
+  .zx9box .col1{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+  }
+  .zx9box .col2{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    color: #ffffff;
+  }
+  .zx9box .col2 button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight:400;
+    border: none;
+  }
+  .zx7box{
+    width: 80%;
+    height: auto;
+    background-color: #edeeeb;
+    margin-bottom: 3rem;
+  }
+
+  .zx7box .col1{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .zx7box .col1 button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #edeeeb;
+    color: #000000;
+    font-weight:500;
+    border: solid 2px #000000;
+  }
+
+.zx7box .col2 img{
+  height: 20vh;
+  width: 100%;
+}
+
+.yx1box{
+  width: 80%;
+    height: 50vh;
+    margin-bottom: 3rem;
+}
+
+.yx1box .blackbg{
+  width: 100%;
+  height: 30vh;
+  background-color: #191919;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earbudblack_yhd3jv.png);
+  background-size: cover;
+  margin: 10px;
+}
+
+.yx1box .whitebg{
+  width: 100%;
+  height: 30vh;
+  background-color: #f1f1ef;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+}
+.yx1box .whitebg button{
+  width: 10rem;
+  height: 3rem;
+  background-color: #edeeeb;
+  color: #000000;
+  font-weight:500;
+  border: solid 2px #000000;
+  box-shadow: inset 0px 2px 4px 1px;
+}
+
+.AudiogearWrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15rem;
+
+}
+.Audiogear{
+  width: 80%;
+
+  
+}
+.Audiogear .col1{
+  height: 50vh;
+}
+.Audiogear h1{
+  padding-bottom: 20px;
+}
+.Audiogear span{
+  color: #d57549;
+}
+.Audiogear .col2{
+  height: 50vh;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/customer_n2xw6g.png);
+  background-size: cover;
+}
+
+.copyright{
+  width: 100%;
+  height: auto;
+  background-color: #101010;
+  color: #ffffff;
+}
+.copyright .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright .col1, .col2 {
+  padding: 20px;
+}
+.copyright .col1 {
+  order: 1;
+}
+
+.copyright .col2 {
+  order: 2;
+}
+.copyright .col2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.copyright .logo {
+  display: flex;
+  justify-content: flex-center;
+}
+
+.copyright .logo i {
+  margin-left: 10px;
+}
+/*
+.copyright .col1{
+  height: 30vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ padding-left: 10%;
+
+}
+.copyright .col1 p{
+  width: 90%;
+}
+
+.copyright .col2{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.copyright .col2 ul{
+ display: flex;
+ list-style: none;
+
+}
+.copyright .col2 li{
+  padding: 15px;
+}
+
+.copyright .logo{
+  display: flex;
+  justify-content: end;
+}
+.copyright .col2 i{
+  padding: 10px;
+}*/
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+  .TopWrapper{
+    width: 100%;
+    height: auto;
+    background-color: #191919;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .wrapper  nav{
+    background-color: #191919;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrapper   .container-fluid{
+    color: #ffffff;
+  }
+
+
+  .wrapper nav .navbar-brand{
+    color: #ffffff;
+  }
+  .wrapper .navbar-nav .nav-link.active{
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .wrapper nav .nav-link{
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .NewProdoct{
+    color: #ffffff;
+    width: 80%;
+    margin-top: 5rem;
+    
+   
+    
+    
+  }
+
+  .NewProdoct .col1{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    
+  }
+
+  .NewProdoct .col1 p{
+    color: #7a7a7a;
+  }
+
+  .NewProdoct .col1 h1{
+    color: #ffffff;
+    font-size: 4rem;
+    width: 90%;
+    
+  }
+  
+  .NewProdoct .col1 button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #d57549;
+    color: #ffffff;
+    font-weight:400;
+    border: none;
+  }
+
+  .NewProdoct .col2{
+    height: 70vh;
+    margin-bottom: 3rem;
+    background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earphone_kvsxmd.png);
+    background-size: cover;
+   display: flex;
+   justify-content: end;
+  }
+
+  .shop{
+    width: 100%;
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .shop .box{
+    width: 25%;
+    height: 200px;
+    background-color: #f1f1ef;
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .shop .box img{
+    margin-top: -4rem;
+   
+  }
+  .shop .box h5{
+    margin-top: 2rem;
+    font-weight: 700;
+  }
+
+  .shop .box p{
+    color: #b1b1af;
+  }
+
+  .shop .box span{
+    color: #d57549;
+  }
+  .SpeakersWrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .zx9box{
+    width: 80%;
+    height: auto;
+    background-color: #d57549;
+    margin-bottom: 3rem;
+   
+    
+  }
+  .zx9box .col1{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+  }
+  .zx9box .col1 img{
+   padding-top: 30px;
+  }
+  .zx9box .col2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    color: #ffffff;
+  }
+  .zx9box .col2 button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight:400;
+    border: none;
+  }
+  .zx7box{
+    width: 80%;
+    height: auto;
+    background-color: #edeeeb;
+    margin-bottom: 3rem;
+  }
+
+  .zx7box .col1{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .zx7box .col1 button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #edeeeb;
+    color: #000000;
+    font-weight:500;
+    border: solid 2px #000000;
+  }
+
+.zx7box .col2{
+  height:40vh;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/tablespeaker_w5iufs.png);
+  background-size: cover;
+}
+
+.yx1box{
+  width: 80%;
+    height: auto;
+    margin-bottom: 3rem;
+    display: flex;
+}
+
+.yx1box .blackbg{
+  width: 100%;
+  height: 50vh;
+  background-color: #191919;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earbudblack_yhd3jv.png);
+  background-size: cover;
+  margin: 10px;
+}
+
+.yx1box .whitebg{
+  width: 100%;
+  height: 50vh;
+  background-color: #f1f1ef;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+}
+.yx1box .whitebg button{
+  width: 10rem;
+  height: 3rem;
+  background-color: #edeeeb;
+  color: #000000;
+  font-weight:500;
+  border: solid 2px #000000;
+  box-shadow: inset 0px 2px 4px 1px;
+}
+.AudiogearWrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+
+}
+.Audiogear{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+
+
+  
+}
+.Audiogear .col1{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.Audiogear h1{
+  padding-bottom: 20px;
+}
+.Audiogear span{
+  color: #d57549;
+}
+.Audiogear p{
+  text-align: start;
+  width: 80%;
+}
+.Audiogear .col2{
+  height: 70vh;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/customer_n2xw6g.png);
+  background-size: cover;
+}
+.copyright{
+  width: 100%;
+  height: auto;
+  background-color: #101010;
+  
+}
+
+.copyright .col1{
+  height: 30vh;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+ padding-left: 10%;
+ color: #ffffff;
+
+ margin-top: 50px;
+ margin-bottom: 20px;
+}
+
+.copyright .col1 p{
+  color: #f4f4f4;
+  font-size: small;
+  width: 80%;
+  margin: 20px 0px;
+}
+
+.copyright .col2{
+  height: 30vh;
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  color: #ffffff;
+ padding-left: 10%;
+
+ margin-top: 50px;
+ margin-bottom: 20px;
+ margin-left: 60px;
+}
+
+.copyright .col2 ul{
+ display: flex;
+ list-style: none;
+
+}
+.copyright .col2 li{
+  padding: 15px;
+}
+
+.copyright .logo{
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+.copyright .col2 i{
+  padding: 10px;
+}
+   
+
+
+
+}

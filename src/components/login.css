@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing:  border-box;
+}
+
+@media only screen and (max-width: 767px){
+  .loginwrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+  }
+  .loginwrapper .wrapper{
+    width: 100%;
+    background-color: black;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+    .loginwrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f1f1f1;
+      }
+      .loginwrapper .wrapper{
+        width: 100%;
+        background-color: black;
+      }
+
+      .loginwrapper .Gobackbtn button{
+        background-color: #f1f1f1;
+      }
+
+      .loginwrapper .form{
+        width: 50%;
+        background-color: #ffffff;
+        height: 30vh;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+      }
+      .loginwrapper .form h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .loginwrapper .form input{
+        width: 90%;
+        height: 2rem;
+        margin-bottom: 1rem;
+       }
+
+       
+    .loginwrapper .form button{
+        background-color: #d87c49;
+        color: #ffffff;
+        font-weight: bold;
+        width: 90%;
+        border: none;
+        height: 2rem;
+    }
+
+}
